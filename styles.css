@@ -219,5 +219,3 @@ tbody td:hover:before {
     background-color: rgba(207, 207, 207, 0.4);
     z-index: -1;
 }
-
-.popup{display:none;position:absolute;background:#ccc;border-radius:6px;padding:8px;}
