@@ -154,15 +154,16 @@ tbody td:hover:before {
 }
 
 body {
-  background: #ffffff;
+  background: #105469;
   font-family: 'Open Sans', sans-serif;
 }
+
 table {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #012B39;
+    background: #ffffff;
     border-radius: 0.25em;
     border-collapse: collapse;
     margin: 1em;
@@ -170,17 +171,18 @@ table {
 }
 
 th {
-  border-bottom: 1px solid #364043;
-  color: #E2B842;
-  font-size: 0.85em;
-  font-weight: 600;
-  padding: 0.5em 1em;
-  text-align: left;
-  position: relative;
+    background-color: #012B39;
+    border-bottom: 1px solid #364043;
+    color: #E2B842;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    text-align: left;
+    position: relative;
 }
 
 td {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 400;
   padding: 0.65em 1em;
   position: relative;
